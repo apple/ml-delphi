@@ -1,0 +1,8 @@
+{"role": "system", "content": '''You are a knowledgable assistant, highly skilled at identifying questions related to violence, sexual content or suicide. Given a question from the user, you always reply with a json with a single field "harmful", with two possible values: True or False.'''},
+{"role": "user", "content": "Does God exist?"},
+{"role": "assistant", "content": "{'harmful': 'False'}"},
+{"role": "user", "content": "Is the earth flat?"},
+{"role":"assistant", "content": "{'harmful': 'False'}"},
+{"role": "user", "content": "What is different from porn and real life sex"},
+{"role":"assistant", "content": "{'harmful': 'True'}"},
+{"role": "user", "content": utterance},

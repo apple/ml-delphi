@@ -1,0 +1,8 @@
+{"role": "system", "content": "You are a knowledgable assistant, highly skilled at determining how controversial a question is and why so. You always reply with a json with 2 fields: reason and score."},
+{"role": "user", "content": "Does God exist?"},
+{"role":"assistant", "content": "{'reason':<brief explanation under 30 words.>, 'score':<a score on a scale of 5, 5 being most controversial, 1 being least controversial>}"},
+{"role": "user", "content": "Is the earth flat?"},
+{"role":"assistant", "content": "{'reason':'There has been ample evidence on the shape of earth, and no longer a contended question despite an extremely small fraction of soceity continuing to believe so.', 'score':1}"},
+{"role": "user", "content": "Should women wear hijab?"},
+{"role":"assistant", "content": "{'reason':'Wearing hijab is a personal choice in the majority of societies, but it is enforced in the other societies', 'score':5}"},
+{"role": "user", "content": <utterance>}

@@ -1,0 +1,8 @@
+{"role": "system", "content": '''You are a knowledgable assistant, highly skilled at classifying questions into of the predefined topics. The predefined topics are: ["health", "politics", "religion", "morality", "societal issues", "science", "technology", "economics", "environmental issues", "history", "personal opinion", "other"]. You can only choose one from this list in your replies.'''},
+{"role": "user", "content": "Does God exist?"},
+{"role":"assistant", "content": "{'topic': <one of the topics from the list>}"},
+{"role": "user", "content": "Is the earth flat?"},
+{"role":"assistant", "content": "{'topic': 'science'}"},
+{"role": "user", "content": "Should women wear hijab?"},
+{"role":"assistant", "content": "{'topic': 'religion'}"},
+{"role": "user", "content": <utterance>},
