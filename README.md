@@ -25,7 +25,7 @@ year={2023}
 
 
 [DELPHI Dataset](./dataset/controversial_questions_annotated_id_removed.tsv)
-- `qid`: controlversial question id list corresponding to the original kaggle training dataset [<link>](https://www.kaggle.com/c/quora-question-pairs)
+- `qid`: controlversial question id list corresponding to the original kaggle training dataset <[train.csv.zip](https://www.kaggle.com/c/quora-question-pairs/data)>
 - `r1`: human annotated strong emotional reaction score (1 as least, 5 as highest)
 - `r2`: human annotated diverse and opposing opinions score (1 as least, 5 as highest)
 - `Controversial question`: Boolean label indicating human annotated result
