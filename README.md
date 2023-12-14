@@ -22,7 +22,7 @@ year={2023}
 </pre>
 
 Contact:
-David Q. Sun <dqs AT apple.com>
+David Q. Sun `dqs AT apple.com`
 
 
 ## Data Downloading
